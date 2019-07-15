@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6268" started-at="2019-07-15T07:01:32Z" finished-at="2019-07-15T07:01:38Z">
+  <suite name="Default suite" duration-ms="10109" started-at="2019-07-15T07:53:30Z" finished-at="2019-07-15T07:53:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6268" started-at="2019-07-15T07:01:32Z" finished-at="2019-07-15T07:01:38Z">
-      <class name="Tests.Test1">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:Tests.Test1@2cfb4a64]" name="launchApp" duration-ms="6242" started-at="2019-07-15T02:01:32Z" finished-at="2019-07-15T02:01:38Z">
+    <test name="Default test" duration-ms="10109" started-at="2019-07-15T07:53:30Z" finished-at="2019-07-15T07:53:40Z">
+      <class name="Tests.MainPageTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Tests.MainPageTest@2cfb4a64]" name="launchApp" duration-ms="5272" started-at="2019-07-15T02:53:30Z" finished-at="2019-07-15T02:53:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-      </class> <!-- Tests.Test1 -->
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:Tests.MainPageTest@2cfb4a64]" name="verifyLogo" duration-ms="4818" started-at="2019-07-15T02:53:35Z" finished-at="2019-07-15T02:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+      </class> <!-- Tests.MainPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
