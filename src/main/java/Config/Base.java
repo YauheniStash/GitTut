@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Base {
 	
-	protected WebDriver driver;
+	public WebDriver driver;
 	
 	public WebDriver browserInit () throws IOException {
 		FileInputStream file=new FileInputStream("C:\\My programs\\Java projects\\GitTut\\src\\main\\java\\Config\\config.properties");
