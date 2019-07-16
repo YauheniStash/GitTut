@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9555" started-at="2019-07-15T08:22:27Z" finished-at="2019-07-15T08:22:37Z">
+  <suite name="Default suite" duration-ms="10538" started-at="2019-07-16T16:16:11Z" finished-at="2019-07-16T16:16:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9555" started-at="2019-07-15T08:22:27Z" finished-at="2019-07-15T08:22:37Z">
+    <test name="Default test" duration-ms="10538" started-at="2019-07-16T16:16:11Z" finished-at="2019-07-16T16:16:22Z">
       <class name="Tests.MainPageTest">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:Tests.MainPageTest@2cfb4a64]" name="launchApp" duration-ms="5056" started-at="2019-07-15T03:22:27Z" finished-at="2019-07-15T03:22:32Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Tests.MainPageTest@2cfb4a64]" name="launchApp" duration-ms="5963" started-at="2019-07-16T11:16:11Z" finished-at="2019-07-16T11:16:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:Tests.MainPageTest@2cfb4a64]" name="verifyLogo" duration-ms="4481" started-at="2019-07-15T03:22:32Z" finished-at="2019-07-15T03:22:37Z">
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:Tests.MainPageTest@2cfb4a64]" name="verifyLogo" duration-ms="4558" started-at="2019-07-16T11:16:17Z" finished-at="2019-07-16T11:16:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
